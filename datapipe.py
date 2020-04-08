@@ -60,6 +60,7 @@ def create_plot(asset_data, ticker):
     plt.legend()
     plt.title('Asset Price Vs Time')
     plt.show()
+    pass
     
 
 def get_stats(asset_data):
