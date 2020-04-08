@@ -56,8 +56,11 @@ def create_plot(asset_data, ticker):
     plt.plot(stats['short_rolling'], label='20 day moving average')
     plt.plot(stats['long_rolling'], label='200 day moving average')
     plt.xlabel('Date')
-    pass
-
+    plt.ylabel('Adj Close price')
+    plt.legend()
+    plt.title('Asset Price Vs Time')
+    plt.show()
+    
 
 def get_stats(asset_data):
     return {
@@ -76,12 +79,12 @@ def get_data(ticker):
                                      start_date,
                                      end_date
                                     )
-        print(clean_data(asset_data, 'Adj Close'))
+        adj_close = clean_data(asset_data, 'Adj Close')
+        create_plot(adj_close, ticker)
     
     except:
         print('No data found for {t}'.format(t=ticker))
         
-
 
 # We will test with gold first
 get_data(gold)
