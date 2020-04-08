@@ -25,6 +25,16 @@ The import features of our data will be the adjusted closing price and the volum
 Graphing data:
 
 
+## Hypothesis Testing: Short Term vs Long Term
+
+### Short Term investments:
+
+**Null Hypothesis:** The mean growth of cryptocurrency within the last 20 days is less than the mean growth of Stocks
+**Alternate Hupothesis:** The mean growth of crypto within the last 20 days is grater than the mean growth of Stocks.
+**Significance Level** = 0.05
+**P Value** =
+
+
 ### Goals
 
 To identify if cryptocurrency growth rates are similiar to that of growth of stocks or other assets.
