@@ -30,6 +30,7 @@ The data will include all historical pricing information from January 1st 2017 t
 ### Dow Jones versus Bitcoin
 
 ![Dow Jones](images/Figure_1.png)
+![Dow Jones](images/Figure_2.png)
 
 ### NASDAQ versus Etherium
 
