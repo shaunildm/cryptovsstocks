@@ -43,10 +43,19 @@ googl = 'googl'
 
 
 # will use front fill method to replace missing values
+# def clean_data(asset_data, col):
+#     weekdays = pd.date_range(start=start_date, end=end_date)
+#     clean_data = asset_data[col].reindex(weekdays)
+#     return clean_data.fillna(method='ffill')
+
+
 def clean_data(asset_data, col):
-    weekdays = pd.date_range(start=start_date, end=end_date)
-    clean_data = asset_data[col].reindex(weekdays)
-    return clean_data.fillna(method='ffill')
+    if asset_data.isnull():
+        weekdays = pd.date_range(start=start_date, end=end_date)
+        clean_data = asset_data[col].reindex(weekdays)
+        return clean_data.fillna(method='ffill')
+    else:
+        return asset_data
 
 
 def create_plot(asset_data, ticker):
@@ -60,7 +69,7 @@ def create_plot(asset_data, ticker):
     plt.legend()
     plt.title('Asset Price Vs Time')
     plt.show()
-    pass
+    
     
 
 def get_stats(asset_data):
@@ -88,4 +97,4 @@ def get_data(ticker):
         
 
 # We will test with gold first
-get_data(gold)
+get_data(dji)
