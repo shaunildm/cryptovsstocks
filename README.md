@@ -29,6 +29,8 @@ The data will include all historical pricing information from January 1st 2017 t
 
 ### Dow Jones versus Bitcoin
 
+![Dow Jones](images/Figure_1.png)
+
 ### NASDAQ versus Etherium
 
 ### S&P 500 versus XRP/Ripple
