@@ -26,6 +26,7 @@ The data will include all historical pricing information from January 1st 2017 t
 
 ## Exporatory Data Analysis
 
+
 ### Dow Jones versus Bitcoin
 
 ### NASDAQ versus Etherium
@@ -42,48 +43,42 @@ We will Hypothesis test with the [Mann-Whitney U-test](https://en.wikipedia.org/
 
 ### 3 year growth
   
-> $H_0$: Bitcoin is likely to grow in price less than the Dow Jones grows in price. I.e.
-  
-  $$P(\text{Dow Jones Index growth} > \text{Bitcoin growth})
-  
-> $H_{a}$: Bitcoin is likely to grow in price greater than the Dow Jones grows in price. I.e.
+**Null Hypothesis**: Bitcoin is likely to grow in price less than the Dow Jones grows in price.
 
-  $$P(\text{Dow Jones Index growth} < \text{Bitcoin growth})
+**Alternate Hypothesis**: Bitcoin is likely to grow in price greater than the Dow Jones grows in price.
   
   $\alpha = 0.05$
   
   **P Value** = 0.011
-  
   
 We accept the **Alternative**, the p value for this competition is less than our threshold, signifying that the long term potential of bitcoin growth over the Dow Jones.
   
   
 ### Short term growth (20 days)
 
-> $H_0$: Bitcoin is likely to grow in price less than the Dow Jones grows in price. I.e.
-  
-  $$P(\text{Dow Jones Index growth} > \text{Bitcoin growth})
-  
-> $H_{a}$: Bitcoin is likely to grow in price greater than the Dow Jones grows in price. I.e.
+**Null Hypothesis**: Bitcoin is likely to grow in price less than the Dow Jones grows in price.
 
-  $$P(\text{Dow Jones Index growth} < \text{Bitcoin growth})
+**Alternate Hypothesis**: Bitcoin is likely to grow in price greater than the Dow Jones grows in price.
   
+  $\alpha = 0.05$
+  
+  **P Value** = 0.601
   
 We accept the **Null**, with great significance we can say that in the short term, Dow Jones will grow and will likely to out grow bitcoin.
 
   
 ### Longer term growth (200 days)
 
-> $H_0$: Bitcoin is likely to grow in price less than the Dow Jones grows in price. I.e.
+**Null Hypothesis**: Bitcoin is likely to grow in price less than the Dow Jones grows in price.
   
-  $$P(\text{Dow Jones Index growth} > \text{Bitcoin growth})
-  
-> $H_{a}$: Bitcoin is likely to grow in price greater than the Dow Jones grows in price. I.e.
+**Alternate Hypothesis**: Bitcoin is likely to grow in price greater than the Dow Jones grows in price.
 
-  $$P(\text{Dow Jones Index growth} < \text{Bitcoin growth})
+  $\alpha = 0.05$
   
-
+  **P Value** = 0.896
+  
 We accept the **Null** once again. Long term growth for the Dow Jones will surpass that of bitcoin.
+
 
 
 ## Conclusion
