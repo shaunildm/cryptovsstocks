@@ -47,13 +47,13 @@ We will Hypothesis test with the [Mann-Whitney U-test](https://en.wikipedia.org/
 
 **Alternate Hypothesis**: Bitcoin is likely to grow in price greater than the Dow Jones grows in price.
   
-  **Threshold** = 0.05$
+  **Threshold** = 0.05
   
   **P Value** = 0.011
   
 We accept the **Alternative**, the p value for this competition is less than our threshold, signifying that the long term potential of bitcoin growth over the Dow Jones.
-  
-  
+ 
+ 
 ### Short term growth (20 days)
 
 **Null Hypothesis**: Bitcoin is likely to grow in price less than the Dow Jones grows in price.
@@ -66,7 +66,7 @@ We accept the **Alternative**, the p value for this competition is less than our
   
 We accept the **Null**, with great significance we can say that in the short term, Dow Jones will grow and will likely to out grow bitcoin.
 
-  
+
 ### Longer term growth (200 days)
 
 **Null Hypothesis**: Bitcoin is likely to grow in price less than the Dow Jones grows in price.
@@ -80,5 +80,87 @@ We accept the **Null**, with great significance we can say that in the short ter
 We accept the **Null** once again. Long term growth for the Dow Jones will surpass that of bitcoin.
 
 
+## NASDAQ versus Etherium
 
-## Conclusion
+### 3 year growth
+  
+**Null Hypothesis**: Etherium is likely to grow in price less than the NASDAQ grows in price.
+
+**Alternate Hypothesis**: Etherium is likely to grow in price greater than the NASDAQ grows in price.
+  
+  **Threshold** = 0.05
+  
+  **P Value** = 0.414
+
+We accept the **Null** because NASDAQ has outperformed Etherium in a 3 year period.
+  
+### Short term growth (20 days)
+
+**Null Hypothesis**: Etherium is likely to grow in price less than the NASDAQ grows in price.
+
+**Alternate Hypothesis**: Etherium is likely to grow in price greater than the NASDAQ grows in price.
+  
+  **Threshold** = 0.05
+  
+  **P Value** = 0.409
+
+We once again accept the **Null**, in the short term stocks will still grow at a better rate.
+  
+### Longer term growth (200 days)
+
+**Null Hypothesis**: Etherium is likely to grow in price less than the NASDAQ grows in price.
+
+**Alternate Hypothesis**: Etherium is likely to grow in price greater than the NASDAQ grows in price.
+  
+  **Threshold** = 0.05
+  
+  **P Value** = 0.304
+
+We have chosen **Null** for every category when comparing NASDAQ to Etherium coin. The trend is showing that traditional stock xchanges are outperforming cryptocurrencies.
+
+
+## S&P 500 versus XRP/Ripple
+
+### 3 year growth
+  
+**Null Hypothesis**: XRP/Ripple is likely to grow in price less than the S&P 500 grows in price.
+
+**Alternate Hypothesis**: XRP/Ripple is likely to grow in price greater than the S&P 500 grows in price.
+  
+  **Threshold** = 0.05
+  
+  **P Value** = 0.013
+  
+We accept the **Null** for comparing 3 year growth p values of XRP/Ripple. XRP/Ripple did have the hardest time recovering from the crypto bubble so this falls in line with that.
+  
+### Short term growth (20 days)
+  
+**Null Hypothesis**: XRP/Ripple is likely to grow in price less than the S&P 500 grows in price.
+
+**Alternate Hypothesis**: XRP/Ripple is likely to grow in price greater than the S&P 500 grows in price.
+  
+  **Threshold** = 0.05
+  
+  **P Value** = 0.484
+  
+We accept the **Null**, XRP performance however, was decent when in terms of recovery.
+  
+  
+### Longer term growth (200 days)
+  
+**Null Hypothesis**: XRP/Ripple is likely to grow in price less than the S&P 500 grows in price.
+
+**Alternate Hypothesis**: XRP/Ripple is likely to grow in price greater than the S&P 500 grows in price.
+  
+  **Threshold** = 0.05
+  
+  **P Value** = 0.414
+
+We accept the **Null** once again, one could see a better profit from investing in the S&P instead of XRP.
+
+
+# Conclusion
+
+Financial markets are going through a tough time right now due to COVID. The world is on forlough so financial markets are reflecting the decisions made by our leaders to shut everything down, but keep a certain part of the economy deemed as essential. We can also see that markets are slowly but surely adapting and overcoming which is a really good sign. Things of course are not just going to return to normal, but a path to normal gains does exist.
+
+What is most surprising is the turn around times of the various cryptocurrencies. All of them showed signs of stabalization in price and this could be incentive for investors to diversify and hedge more using cryptocurrency.
