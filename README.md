@@ -9,7 +9,7 @@ By Shaunil Maharaj
 
 On January 25th, 2020, the Dow Jones traded above 20,000 for the first time, marking an important milestone in financial markets. Soon after, on February 5th, another important milestone was achieved for Bitcoin, having completed over 500 million transactions in it's 11 year history. The beginning of 2020 set expectations of a break out year for financial markets. Unfortunately, a deadly a viral outbreak had caused the US and World economies to come to a halt. In mid-March 2020, shelter in place orders and the forlough of non-essential employees began around the US, causing the assets market to take a price dive.
 
-We will explore the performance of cryptocurrencies versus stock markets in order to gain insight on whether cryptocurrency can be seen as a worthy financial product. Observing the mean change of price of the past 20 days of each asset, we can gauge how well each marketplace reacted to shelter-in-place orders which caused a "bearish" marketplace where the price went down. Observing the mean change of price over the past 200 days will give us insight on how each marketplace performed during times of where the price went up, also known as a "bullish" market. 
+We will explore the performance of cryptocurrencies versus stock markets in order to gain insight on whether cryptocurrency can be seen as a worthy financial product. 
 
 
 ### Data
@@ -29,12 +29,61 @@ The data will include all historical pricing information from January 1st 2017 t
 
 ### Dow Jones versus Bitcoin
 
+### Dow Jones
+
 ![Dow Jones](images/Figure_1.png)
 ![Dow Jones](images/Figure_2.png)
 
+The Dow Jones has performed well over the past 3 years. The 200 days moving average line indicates steady growth up until shelter-in-order began. After that, we see that volatility index skyrocket with correlations to the market crashing.
+
+### Bitcoin
+
+![Bitcoin](images/Figure_3.png)
+![Bitcoin](images/Figure_4.png)
+
+We see a giant bubble burst within bitcoin prices and subsequent recovery. This could be an indication that cryptocurrencies are highly speculative but this cryptocurrency in particular is once again showing strong recovery. We can cleary see that the volatility of price has gone done indicating that bitcoin may have already stabilized since COVID has halted the economy.
+
+### Insights
+
+As we can see, both markets are subject to speculation and volitivity, but bitcoin prices vary greatly. It seems to have gone through and amazing bubble at the end of 2017. It is interesting to note that the Dow Jones has experienced similiar highs and lows at near the same time of bitcoin. While price growth for bitcoin has been shakey, the coin has reacted well to COVID-19, in that prices have seemed to recover while stock prices have continued to fall, and on average, back to values not seen since early 2017. It would make sense, as cryptocurrencies will not be subject to the same woes as corporations will on the stock market as these companies may not be able to work or produce.
+
+
 ### NASDAQ versus Etherium
 
+### NASDAQ
+
+![NASDAQ](images/Figure_5.png)
+![NASDAQ](images/Figure_6.png)
+
+The NASDAQ, similiar to the Dow Jones, has performed very well overall but was severly impacted by COVID-19. Both 20 day and 200 day volatility indexes show sharp increases in changes to stock price around the time shelter-in-place orders were given.
+
+### Etherium
+
+![Etherium](images/Figure_7.png)
+![Etherium](images/Figure_8.png)
+
+Etherium has not recovered as well from the cryptocurrency bubble of early 2018. We have seen a steady decline in the price as time has gone on. Similiar to bitcoin, in that it has seemingly stabilized since COVID-19.
+
+### Insights
+
+NASDAQ interestingly enough was the first all electronic trading exchange. Investors from previous generations balked at this idea, stating that high frequency trading this allowed would cos markets to spiral out of control due to sheer speculation. The NASDAQ however, is still here, and showed strong gains over the past 3 years. Etherium was slated to follow bitcoin but did not recover in price as well as, showing a steady decrease in price since then. We can see that Etherium's bubble occured slightly after bitcoins, possibly showing the net effect of hyper speculation.
+
+
 ### S&P 500 versus XRP/Ripple
+
+### S&P 500
+
+![S&P 500](images/Figure_9.png)
+![S&P 500](images/Figure_10.png)
+
+The S&P index has gone through similiar market changes as the other two stock exchanges. Similiar 3 year growth, with a similiar nose dive corresponding to shelter-in-place orders. The volatility indexes also show the same patterns as the Dow Jones and NASDAQ.
+
+### XRP/Ripple
+
+![XRP/Ripple](images/Figure_11.png)
+![XRP/Ripple](images/Figure_12.png)
+
+XRP/Ripple has had very similiar performance to Etherium. Initially a bubble burst, then the average price seems to be winding down to zero. Not a great sign for the health of cryptocurrency, but strong recoveries show the power of having a commidity be able to react to the supply and demand of the market so quickly.
 
 
 # Hypothesis Testing
@@ -164,6 +213,7 @@ We accept the **Null** once again, one could see a better profit from investing 
 
 # Conclusion
 
-Financial markets are going through a tough time right now due to COVID. The world is on forlough so financial markets are reflecting the decisions made by our leaders to shut everything down, but keep a certain part of the economy deemed as essential. We can also see that markets are slowly but surely adapting and overcoming which is a really good sign. Things of course are not just going to return to normal, but a path to normal gains does exist.
+Financial markets are going through a though time right now much like the rest of the world due to the COVID pandemic. Economies of scale have been furloughed and production has been reduced dramatically. It is expected that financial markets will take a hit. A more surprising insight gained was the downward moving averages displayed by Etherium and XRP. The findings are very alarming as these crypto's are trending out of existence. A positive note for crypto is that there is evidence that could suggest the fast trading nature of cryptocurrencies allow them to bounce back quicker than traditional financial markets. Crypto's aren't bound by strict trading windows or other regulations that publicly traded stocks must adhere too.
 
-What is most surprising is the turn around times of the various cryptocurrencies. All of them showed signs of stabalization in price and this could be incentive for investors to diversify and hedge more using cryptocurrency.
+Another positive take away is that all of the markets are showing some initial signs of stabilization. This brings hope, showing the economy can adapt and overcome despite the pandemic. It would be interesting to dive deeper into crypto metrics as well. Possible future projects could include more comparative analysis of crypto's versus individual companies, or a comparison with gold, silver, and oil.
+
