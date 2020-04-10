@@ -36,7 +36,7 @@ The data will include all historical pricing information from January 1st 2017 t
 
 # Hypothesis Testing
 
-We will Hypothesis test with the [Mann-Whitney U-test](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test) which will no make any distributional assumptions considering the distributions of our assets could be very complicated. We will adopt the **Null Hypothesis** that each cryptocurrency is equally likely to grow in price as it's respective stock exchange counterpart. The **Alternate Hypothesis** is that the stock exchanges are better places for investment because they have better growth. We will test each hypothesis to a threshold of $\alpha = 0.05$ for each category.
+We will Hypothesis test with the [Mann-Whitney U-test](https://en.wikipedia.org/wiki/Mann%E2%80%93Whitney_U_test) which will no make any distributional assumptions considering the distributions of our assets could be very complicated. We will adopt the **Null Hypothesis** that each cryptocurrency is equally likely to grow in price as it's respective stock exchange counterpart. The **Alternate Hypothesis** is that the stock exchanges are better places for investment because they have better growth. We will test each hypothesis to a threshold of **Threshold** = 0.05 for each category.
 
 
 ## Dow Jones versus Bitcoin
@@ -47,7 +47,7 @@ We will Hypothesis test with the [Mann-Whitney U-test](https://en.wikipedia.org/
 
 **Alternate Hypothesis**: Bitcoin is likely to grow in price greater than the Dow Jones grows in price.
   
-  $\alpha = 0.05$
+  **Threshold** = 0.05$
   
   **P Value** = 0.011
   
@@ -60,7 +60,7 @@ We accept the **Alternative**, the p value for this competition is less than our
 
 **Alternate Hypothesis**: Bitcoin is likely to grow in price greater than the Dow Jones grows in price.
   
-  $\alpha = 0.05$
+  **Threshold** = 0.05
   
   **P Value** = 0.601
   
@@ -73,7 +73,7 @@ We accept the **Null**, with great significance we can say that in the short ter
   
 **Alternate Hypothesis**: Bitcoin is likely to grow in price greater than the Dow Jones grows in price.
 
-  $\alpha = 0.05$
+  **Threshold** = 0.05
   
   **P Value** = 0.896
   
